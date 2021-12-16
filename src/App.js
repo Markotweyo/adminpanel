@@ -4,6 +4,7 @@ import './app.css'
 import Home from "./pages/home/Home";
 
 
+
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       <div className="container">
       <Sidebar/>
       <Home/>
+      
       
       </div>
       

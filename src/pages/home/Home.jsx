@@ -1,6 +1,8 @@
 import React from 'react';
 import Chart from '../../components/chart/Chart';
 import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
+import WidgetSm from '../../components/WidgetSm/WidgetSm';
+import WidgetLg from '../../components/WidgetLg/WidgetLg';
 import './home.css';
 import {data} from '../../dummyData';
 
@@ -14,6 +16,10 @@ const Home = () => {
             dataKey="Active User"
             grid
            />
+           <div className="homeWidgets">
+            <WidgetSm/>
+            <WidgetLg/>
+           </div>
         </div>
     )
 }

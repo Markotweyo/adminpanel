@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+}
+.img {
+  width: 40px;
+}
+
+.nav {
+  display: flex;
+}
+
+.ul {
+  list-style: none;
+}
+.li {
+  cursor: pointer;
+  font-size: 20px;
+}

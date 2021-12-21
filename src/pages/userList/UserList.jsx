@@ -10,9 +10,13 @@ import {Link} from 'react-router-dom'
   
 const UserList = () => {
     const [data, setData] = useState(userRows);
+    
+    
     const handleDelete=(id)=>{
         setData(data.filter((item) => item.id !== id))
-    }
+    };
+
+
     const columns = [
         { field: 'id', headerName: 'ID', width: 150 },
         {
@@ -53,7 +57,7 @@ const UserList = () => {
           renderCell: (params)=>{
             return (
                 <>
-                <Link to={"/user/"+params.row.id}>
+                <Link to={"/users/"+params.row.id}>
                 <button className="userListEdit">Edit</button>
                 </Link>
                 <DeleteOutline 

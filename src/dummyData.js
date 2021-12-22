@@ -152,3 +152,103 @@ export const userRows = [
 },
     
   ];
+
+  export const ProductRows = [
+    {  
+        id: 1, 
+        name: 'Apple Watch', 
+        img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+        stock: 123,
+        status: "Active",
+        price: "$ 112.00"
+     },
+     {  
+      id: 2, 
+      name: 'Apple Watch', 
+      img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+      stock: 123,
+      status: "Active",
+      price: "$ 112.00"
+   },
+   {  
+    id: 3, 
+    name: 'Apple Watch', 
+    img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+    stock: 123,
+    status: "Active",
+    price: "$ 112.00"
+ },
+ {  
+  id: 4, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 5, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 6, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 7, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 8, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 9, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 10, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 11, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+{  
+  id: 11, 
+  name: 'Apple Watch', 
+  img: 'https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500', 
+  stock: 123,
+  status: "Active",
+  price: "$ 112.00"
+},
+    
+  ];

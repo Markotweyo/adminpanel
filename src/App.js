@@ -8,6 +8,7 @@ import {
   BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NewUser from "./pages/newPage/NewUser";
 import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/users/:userId" element={<User/>}/>
           <Route path="/newUser" element={<NewUser/>}/>
           <Route path="/products" element={<ProductList/>}/>
+          <Route path="/product/:productId" element={<Product/>}/>
       </Routes>
     </div>
     </Router>
